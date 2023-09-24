@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpo</title>
+</head>
+
+<body class="body">
+    <div class="actions-div">
+        <div id="pedra" class="img-div" onclick="play(0)">
+            <img class="img" src="imagens/pedra.png" alt="pedra" >
+        </div>
+        <div id="papel" class="img-div" onclick="play(1)">
+            <img class="img" src="imagens/papel.png" alt="papel" >
+        </div>
+        <div id="tesoura" class="img-div" onclick="play(2)">
+            <img class="img" src="imagens/tesoura.png" alt="tesoura">
+        </div>
+    </div>
+    <div class="placar-div">
+        <p id="winner">Quem ganhou?</p>
+        <div class="score">
+            <p>Player</p>
+            <p id="score">0 x 0</p>
+            <p>IA</p>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
